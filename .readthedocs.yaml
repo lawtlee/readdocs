@@ -9,8 +9,7 @@ build:
   os: ubuntu-22.04
   tools:
     # Install our python package before building the docs
-    install:
-      python: "3.11"
+    python: "3.11"
     # You can also specify other tool versions:
     # nodejs: "20"
     # rust: "1.70"

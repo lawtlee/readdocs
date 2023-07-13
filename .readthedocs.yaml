@@ -10,8 +10,7 @@ build:
   tools:
     # Install our python package before building the docs
     install:
-      - method: pip
-        path: .
+      python: "3.11"
     # You can also specify other tool versions:
     # nodejs: "20"
     # rust: "1.70"
@@ -41,4 +40,8 @@ formats:
 #    install:
 #    - requirements: docs/requirements.txt
 
-
+python:
+  # Install our python package before building the docs
+  install:
+    - method: pip
+      path: .
